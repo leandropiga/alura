@@ -32,42 +32,24 @@ p {
     margin: 20px 0;
 }
 
-.citacoes {
-    background-color: #D9E5E3;
-    padding: 20px;
-    border: 10px solid #c2ccca;
-    width: 250px;
-    box-sizing: border-box;
-    margin: 20px 40px;
-}
-
-.fiat {
-    float: right;
-}
-
-.petrobras {
-    float: left;
-}
-
-cite {
-    float: right;
-    font-style: italic;
-}
 
 .foto {
-    float: right;
-    width: 15%;
+    position: absolute;
+    top: 0;
+    right: 0;
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
 }
 
 .navegacao-site {
+    position: relative;
     background-color: #3C1D3D;
     color: #F2FFFC;
     padding: 20px;
     float: right;
     width: 15%;
+    top: 310px;
     box-sizing: border-box;
     border-left: 10px solid black;
     border-bottom: 10px solid black;
@@ -83,10 +65,14 @@ aside h1 {
 }
 
 #rodape-pagina {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: black;
     color: #F2FFFC;
     padding: 20px;
-    clear: both;
+    clear: both;1
 }
 
 nav a {
@@ -97,6 +83,7 @@ nav a {
 main {
     float: left;
     width: 85%;
+    padding-bottom: 80px;
 }
 
 main a {
@@ -124,20 +111,6 @@ h2 {
     font-size: 30px;
 }
 
-article {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.leiamais {
-    font-size: 130%;
-    padding: 8px;
-    margin: 16px;
-    display: block;
-    text-align: center;
-    background-color: #E6E7E8;
-}
 
 .icones-redes-sociais a {
     width: 40px;
@@ -147,14 +120,14 @@ article {
 }
 
 .github {
-    background: url(github.png);
+    background: url(../img/github.png);
 }
 
 .twitter {
-    background: url(twitter.png);
+    background: url(../img/twitter.png);
 }
 
 .linkedin {
-    background: url(linkedin.png);
+    background: url(../img/linkedin.png);
 }
 
